@@ -1,0 +1,67 @@
+\usepackage[absolute,overlay]{textpos}
+
+\definecolor{own-green}{RGB}{50,180,180}
+\setbeamercolor{frametitle}{fg=own-green}
+\setbeamercolor{item}{fg=own-green}
+\setbeamercolor{block title}{fg=white}
+\setbeamerfont{frametitle}{size=\huge,series=\bfseries}
+\setbeamercolor{title}{fg=white}
+\setbeamerfont{title}{size=\huge}
+\setbeamercolor{author}{fg=white}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{footline}[frame number]
+\setbeamercolor{footline}{fg=black}
+\setbeamertemplate{footline}{% 
+  \hfill% 
+  \usebeamercolor[fg]{page number in head/foot}% 
+  \usebeamerfont{page number in head/foot}% 
+  \insertframenumber%
+  %\,/\,\inserttotalframenumber
+  \kern1em\vskip2pt% 
+}
+\setbeamerfont{footline}{size=\Large}
+\setbeamertemplate{navigation symbols}{}
+
+\logo{\includegraphics[width=.5\textwidth]{Figures/logos.pdf}\hspace{4cm}\vspace{-0.6cm}}
+
+\setbeamertemplate{background canvas}{%
+    \ifnum\c@framenumber=1%
+    \includegraphics[width=\paperwidth]{Figures/cover_logos.pdf}
+    \fi%
+}
+
+\AtBeginSection[]{
+\mode<all>
+    {
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{Figures/background.jpeg}}
+    \begin{frame}[plain]
+        \vfill
+        \centering
+        \begin{beamercolorbox}[wd=\paperwidth,dp=1ex,center]{title}%
+            \usebeamerfont{title}\insertsectionhead\par%
+        \end{beamercolorbox}%
+        \vfill
+    \end{frame}
+    }
+\mode<all>{\usebackgroundtemplate{}}
+\mode*
+}
+
+\AtBeginSubsection[]{
+\mode<all>
+    {
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{Figures/background.jpeg}}
+    \begin{frame}[plain]
+        \vfill
+        \centering
+        \begin{beamercolorbox}[wd=\paperwidth,dp=1ex,center]{title}%
+            \usebeamerfont{title}\insertsubsectionhead\par%
+        \end{beamercolorbox}%
+        \vfill
+    \end{frame}
+    }
+\mode<all>{\usebackgroundtemplate{}}
+\mode*
+}
+
+\useinnertheme{rounded}

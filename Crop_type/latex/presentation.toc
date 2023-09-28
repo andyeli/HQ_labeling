@@ -1,0 +1,6 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {2}{Dataset}{3}{0}{1}
+\beamer@sectionintoc {3}{Labeling}{5}{0}{2}
+\beamer@sectionintoc {4}{Training}{10}{0}{3}
+\beamer@sectionintoc {5}{Inference}{12}{0}{4}
+\beamer@sectionintoc {6}{Thank you}{13}{0}{5}
