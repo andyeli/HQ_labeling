@@ -1,7 +1,6 @@
 \documentclass{beamer}
 \usepackage{color}
 \usepackage{graphicx}
-
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
@@ -11,10 +10,7 @@
 \usepackage{multicol}
 \usepackage{subfigure}
 \usepackage{ragged2e}
-\usepackage{newtxtext,newtxmath}
-\usepackage{multirow}
 \usepackage{booktabs}
-\usepackage{animate}
 \usepackage{makecell}
 
 \usefonttheme{professionalfonts}
@@ -33,7 +29,7 @@
 \section{}
 \begin{frame}
     \begin{figure}
-        \includegraphics[width=10cm]{Figures/v3/overlaping_polygons_1.png}
+        \includegraphics[width=10cm]{Figures/v3/main/overlaping_polygons_1.png}
         \caption{All polygons over area of interest: 22MET overlap.}  
         \centering
     \end{figure}
@@ -49,9 +45,10 @@
                 \multicolumn{2}{c}{\textbf{Dataset}} \\
                 \hline  	
                 Tiles &  22MET \\
-                Number of polygons & 11 \\
-                Time observation & \makecell{2019-05-01 \\ 2019-09-30} \\
-                Visualization of TC images & 0-3000 \\
+                Number of polygons & 12 \\
+                Time range & \makecell{2021-05-01 \\ 2021-09-30} \\
+                Total number observations & 61\\
+                Number with HQ observations & 34 \\
                 \hline
             \end{tabular}
             \caption{Description of the dataset.}
@@ -72,7 +69,7 @@
                 High quality & HQ \\
                 \hline
             \end{tabular}
-            \caption{Description of the labeling.}
+            \caption{Description of labels.}
         \end{table}
     \end{minipage}
 \end{frame}
@@ -81,7 +78,7 @@
 \begin{frame}
     \begin{figure}
         \includegraphics[width=10cm]{Figures/v3/labeling/polygon_0.pdf}
-        \caption{Temporal observation of the polygon 0.}  
+        \caption{Polygon 1. Examples of some observation/labels.}  
         \centering
     \end{figure}
 \end{frame}
@@ -89,7 +86,7 @@
 \begin{frame}
     \begin{figure}
         \includegraphics[width=10cm]{Figures/v3/labeling/polygon_2.pdf}
-        \caption{Temporal observation of the polygon 2.}  
+        \caption{Polygon 2. Examples of some observation/labels.}  
         \centering
     \end{figure}
 \end{frame}
@@ -97,7 +94,7 @@
 \begin{frame}
     \begin{figure}
         \includegraphics[width=10cm]{Figures/v3/labeling/polygon_4.pdf}
-        \caption{Temporal observation of the polygon 4.}  
+        \caption{Polygon 3. Examples of some observation/labels.}  
         \centering
     \end{figure}
 \end{frame}
@@ -105,28 +102,23 @@
 \begin{frame}
     \begin{figure}
         \includegraphics[width=10cm]{Figures/v3/labeling/polygon_11.pdf}
-        \caption{Temporal observation of the polygon 11.}  
+        \caption{Polygon 4. Examples of some observation/labels.}  
         \centering
     \end{figure}
 \end{frame}
 
 \section{Training}
-\begin{frame}{Implementation details}
+\begin{frame}{Implementation details of the AE}
     \begin{minipage}{0.6\textwidth}
-        \begin{table}
-            \scriptsize
-            \begin{tabular}{c | c} 
-                \hline
-                Parameter & Value \\ [1ex] 
-                \hline
-                Training size & 90$\%$ \\ [1ex]
-                Testing size & 10$\%$ \\ [1ex]
-                Number of observations with HQ & 30 \\
-                Classes & 7 \\ [1ex] 
-                \hline
-            \end{tabular}
-        \caption{Dataset split.}
-        \end{table}
+        \begin{figure}
+            \includegraphics[width=0.6\textwidth]{Figures/v3/main/training.pdf}
+            \caption{Workflow of training.}  
+        \end{figure}
+        \begin{figure}
+            \includegraphics[width=0.55\textwidth]{Figures/v3/main/loss.jpg}
+            \caption{Loss function.}  
+            \centering
+        \end{figure}
     \end{minipage}
     \begin{minipage}{0.35\textwidth}
         \begin{table}
@@ -134,23 +126,229 @@
             \begin{tabular}{c|c}
             \hline
                 \multicolumn{2}{c}{Hyperparameters} \\ \hline
+                Training size & 90$\%$ \\ [1ex]
+                Validation size & 10$\%$ \\ [1ex]
                 Epochs & 10000 \\ 
-                Batch size rate & 0.1* \\ 
+                Batch size & 0.1 \\ 
                 Units in hidden layers & 3 \\ 
                 Learning rate & 1e-5 \\ 
                 Optimizer & Adam \\ 
                 Loss & MSE \\ \hline
-                \multicolumn{2}{c}{* of each class}
             \end{tabular}
             \caption{Setting up of the Autoencoders hyperparameters.}
         \end{table}
     \end{minipage}
 \end{frame}
 
+\section{Results}
+\begin{frame}{Date: 2021-05-13}
+\centering
+    \begin{tabular}{cc}
+    TCI & Error map\\
+    \includegraphics[width=2.5cm]{Figures/v3/20210513/111-TCI_with_zoom_roi.pdf}
+    &
+    \includegraphics[width=2.5cm]{Figures/v3/20210513/222-error_map_with_zoom_roi.pdf}
+\end{tabular}
+\\
+   \centering
+    Binary masks
+    \begin{tabular}{ccc}
+    threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+    \includegraphics[width=3cm]{Figures/v3/20210513/binary_mask_umbral_03/zoom1.png}
+    &
+    \includegraphics[width=2.9cm]{Figures/v3/20210513/binary_mask_umbral_04/zoom1.png}
+    &
+    \includegraphics[width=3.2cm]{Figures/v3/20210513/binary_mask_umbral_05/33-binary_mask_zoom.png}
+    \end{tabular}
+\end{frame}
 
-\section{Inference}
+\begin{frame}{Date: 2021-05-13}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=3cm]{Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf}
+    \end{tabular}
+    \\
+    \centering
+        Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=2.8cm]{Figures/v3/20210513/binary_mask_umbral_03/zoom2.png}
+        &
+        \includegraphics[width=2.9cm]{Figures/v3/20210513/binary_mask_umbral_04/zoom2.png}
+        &
+        \includegraphics[width=2.9cm]{Figures/v3/20210513/binary_mask_umbral_05/33-binary_mask_zoom2.png}
+        \end{tabular}
+    \end{frame}
 
+\begin{frame}{Date: 2021-05-25}
+\centering
+    \begin{tabular}{cc}
+    TCI & Error map\\
+    \includegraphics[width=3cm]{Figures/v3/20210525/TCI/TCI_zoom1.pdf}
+    &
+    \includegraphics[width=3cm]{Figures/v3/20210525/error/error_zoom1.pdf}
+\end{tabular}
+\\
+   \centering
+    Binary masks
+    \begin{tabular}{ccc}
+        threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+    \includegraphics[width=3cm]{Figures/v3/20210525/umbral_03/zoom1.png}
+    &
+    \includegraphics[width=3cm]{Figures/v3/20210525/umbral_04/zoom1.png}
+    &
+    \includegraphics[width=3cm]{Figures/v3/20210525/umbral_05/zoom1.png}
+    \end{tabular}
+\end{frame}
 
-\section{Thank you}
+\begin{frame}{Date: 2021-05-25}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=3cm]{Figures/v3/20210525/TCI/TCI_zoom2.pdf}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210525/error/error_zoom2.pdf}
+    \end{tabular}
+    \\
+    \centering
+     Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210525/umbral_03/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210525/umbral_04/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210525/umbral_05/zoom2.png}
+        \end{tabular}
+    \end{frame}
+
+\begin{frame}{Date: 2021-05-28}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=3cm]{Figures/v3/20210528/TCI/TCI_zoom1.pdf}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210528/error_map/error_zoom1.pdf}
+    \end{tabular}
+    \\
+   \centering
+    Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210528/umbral_03/zoom1.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210528/umbral_04/zoom1.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210528/umbral_05/zoom1.png}
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-28}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=3cm]{Figures/v3/20210528/TCI/TCI_zoom2.pdf}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210528/error_map/error_zoom2.pdf}
+    \end{tabular}
+    \\
+    \centering
+     Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210528/umbral_03/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210528/umbral_04/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210528/umbral_05/zoom2.png}
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-30}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=2.8cm]{Figures/v3/20210530/TCI/tci_zoom1.pdf}
+        &
+        \includegraphics[width=2.8cm]{Figures/v3/20210530/error_map/error_zoom1.pdf}
+    \end{tabular}
+    \\
+   \centering
+    Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210530/umbral_03/zoom1.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210530/umbral_04/zoom1.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210530/umbral_05/zoom1.png}
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-30}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=2.8cm]{Figures/v3/20210530/TCI/tci_zoom2.pdf}
+        &
+        \includegraphics[width=2.8cm]{Figures/v3/20210530/error_map/error_zoom2.pdf}
+    \end{tabular}
+    \\
+   \centering
+    Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210530/umbral_03/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210530/umbral_04/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210530/umbral_05/zoom2.png}
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-06-02}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=2.7cm]{Figures/v3/20210602/TCI/tci_zoom1.pdf}
+        &
+        \includegraphics[width=2.7cm]{Figures/v3/20210602/error_map/error_zoom1.pdf}
+    \end{tabular}
+    \\
+   \centering
+    Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210602/umbral_03/zoom1.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210602/umbral_04/zoom1.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210602/umbral_05/zoom1.png}
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-06-02}
+    \centering
+        \begin{tabular}{cc}
+        TCI & Error map\\
+        \includegraphics[width=2.7cm]{Figures/v3/20210602/TCI/tci_zoom2.pdf}
+        &
+        \includegraphics[width=2.7cm]{Figures/v3/20210602/error_map/error_zoom2.pdf}
+    \end{tabular}
+    \\
+   \centering
+    Binary masks
+        \begin{tabular}{ccc}
+            threshold = 0.3  & threshold =0.4 &  threshold = 0.5 \\
+        \includegraphics[width=3cm]{Figures/v3/20210602/umbral_03/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210602/umbral_04/zoom2.png}
+        &
+        \includegraphics[width=3cm]{Figures/v3/20210602/umbral_05/zoom2.png}
+        \end{tabular}
+\end{frame}
 
 \end{document}
