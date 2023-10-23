@@ -36,8 +36,8 @@
 \end{frame}
 
 \section{Dataset}
-\begin{frame}{Implementation details}
-    \begin{minipage}{0.6\textwidth}
+\begin{frame}{Dataset}
+    \begin{minipage}{0.65\textwidth}
         \begin{table}
             \scriptsize
             \begin{tabular}{c|c}
@@ -49,12 +49,15 @@
                 Time range & \makecell{2021-05-01 \\ 2021-09-30} \\
                 Total number observations & 61\\
                 Number with HQ observations & 34 \\
+                Number of spectral bands & 12*\\
+                Number of features & 13 (bands + ndvi)\\
                 \hline
+                \multicolumn{2}{c}{*All spectral bands except B10} \\
             \end{tabular}
             \caption{Description of the dataset.}
         \end{table}
     \end{minipage}
-    \begin{minipage}{0.35\textwidth}
+    \begin{minipage}{0.3\textwidth}
         \begin{table}
             \scriptsize
             \begin{tabular}{c|c}
