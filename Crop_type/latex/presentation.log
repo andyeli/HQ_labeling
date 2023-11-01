@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.30)  24 OCT 2023 17:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.30)  1 NOV 2023 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -801,7 +801,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./presentation.nav)
-<Figures/cover_logos.pdf, id=33, 578.91281pt x 543.25267pt>
+<Figures/cover_logos.pdf, id=37, 578.91281pt x 543.25267pt>
 File: Figures/cover_logos.pdf Graphic file (type pdf)
 <use Figures/cover_logos.pdf>
 Package pdftex.def Info: Figures/cover_logos.pdf  used on input line 28.
@@ -809,12 +809,12 @@ Package pdftex.def Info: Figures/cover_logos.pdf  used on input line 28.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/cover_logos.pdf>]
-<Figures/v3/main/overlaping_polygons_1.png, id=65, 1292.83pt x 673.51625pt>
+<Figures/v3/main/overlaping_polygons_1.png, id=69, 1292.83pt x 673.51625pt>
 File: Figures/v3/main/overlaping_polygons_1.png Graphic file (type png)
 <use Figures/v3/main/overlaping_polygons_1.png>
 Package pdftex.def Info: Figures/v3/main/overlaping_polygons_1.png  used on input line 37.
 (pdftex.def)             Requested size: 284.52756pt x 148.22542pt.
-<Figures/logos.pdf, id=67, 1301.44164pt x 197.75757pt>
+<Figures/logos.pdf, id=71, 1301.44164pt x 197.75757pt>
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
 Package pdftex.def Info: Figures/logos.pdf  used on input line 37.
@@ -822,176 +822,178 @@ Package pdftex.def Info: Figures/logos.pdf  used on input line 37.
  [2
 
  <./Figures/logos.pdf> <./Figures/v3/main/overlaping_polygons_1.png>]
-File: Figures/logos.pdf Graphic file (type pdf)
-<use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 44.
-(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
- [3
-
-]
-<Figures/background.jpeg, id=103, 771.88374pt x 721.69624pt>
+<Figures/background.jpeg, id=99, 771.88374pt x 721.69624pt>
 File: Figures/background.jpeg Graphic file (type jpg)
 <use Figures/background.jpeg>
-Package pdftex.def Info: Figures/background.jpeg  used on input line 46.
+Package pdftex.def Info: Figures/background.jpeg  used on input line 40.
 (pdftex.def)             Requested size: 364.18698pt x 273.14621pt.
- [4
+ [3
 
  <./Figures/background.jpeg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 80.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 86.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 80.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Overfull \hbox (1.13974pt too wide) in paragraph at lines 86--86
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 80.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (1.13974pt too wide) in paragraph at lines 80--80
  [] 
  []
 
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 86.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 80.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[5
-
-]
-File: Figures/logos.pdf Graphic file (type pdf)
-<use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 93.
-(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
- [6
+[4
 
 ]
 File: Figures/background.jpeg Graphic file (type jpg)
 <use Figures/background.jpeg>
-Package pdftex.def Info: Figures/background.jpeg  used on input line 95.
+Package pdftex.def Info: Figures/background.jpeg  used on input line 82.
 (pdftex.def)             Requested size: 364.18698pt x 273.14621pt.
- [7
+ [5
 
 ]
-<Figures/v3/labeling/polygon_0.pdf, id=132, 987.31065pt x 594.66257pt>
+<Figures/v3/labeling/polygon_0.pdf, id=120, 987.31065pt x 594.66257pt>
 File: Figures/v3/labeling/polygon_0.pdf Graphic file (type pdf)
 <use Figures/v3/labeling/polygon_0.pdf>
-Package pdftex.def Info: Figures/v3/labeling/polygon_0.pdf  used on input line 102.
+Package pdftex.def Info: Figures/v3/labeling/polygon_0.pdf  used on input line 89.
 (pdftex.def)             Requested size: 284.52756pt x 171.37701pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 102.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 89.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
- [8
+ [6
 
  <./Figures/v3/labeling/polygon_0.pdf>]
-<Figures/v3/labeling/polygon_2.pdf, id=280, 973.08423pt x 594.66257pt>
+<Figures/v3/labeling/polygon_2.pdf, id=268, 973.08423pt x 594.66257pt>
 File: Figures/v3/labeling/polygon_2.pdf Graphic file (type pdf)
 <use Figures/v3/labeling/polygon_2.pdf>
-Package pdftex.def Info: Figures/v3/labeling/polygon_2.pdf  used on input line 110.
+Package pdftex.def Info: Figures/v3/labeling/polygon_2.pdf  used on input line 97.
 (pdftex.def)             Requested size: 284.52756pt x 173.88138pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 110.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 97.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
- [9
+ [7
 
  <./Figures/v3/labeling/polygon_2.pdf>]
-<Figures/v3/labeling/polygon_4.pdf, id=359, 975.9295pt x 583.2815pt>
+<Figures/v3/labeling/polygon_4.pdf, id=348, 975.9295pt x 583.2815pt>
 File: Figures/v3/labeling/polygon_4.pdf Graphic file (type pdf)
 <use Figures/v3/labeling/polygon_4.pdf>
-Package pdftex.def Info: Figures/v3/labeling/polygon_4.pdf  used on input line 118.
+Package pdftex.def Info: Figures/v3/labeling/polygon_4.pdf  used on input line 105.
 (pdftex.def)             Requested size: 284.52756pt x 170.05511pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 118.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 105.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
- [10
+ [8
 
  <./Figures/v3/labeling/polygon_4.pdf>]
-<Figures/v3/labeling/polygon_11.pdf, id=437, 967.3937pt x 588.97206pt>
+<Figures/v3/labeling/polygon_11.pdf, id=426, 967.3937pt x 588.97206pt>
 File: Figures/v3/labeling/polygon_11.pdf Graphic file (type pdf)
 <use Figures/v3/labeling/polygon_11.pdf>
-Package pdftex.def Info: Figures/v3/labeling/polygon_11.pdf  used on input line 126.
+Package pdftex.def Info: Figures/v3/labeling/polygon_11.pdf  used on input line 113.
 (pdftex.def)             Requested size: 284.52756pt x 173.224pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 126.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 113.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
- [11
+ [9
 
  <./Figures/v3/labeling/polygon_11.pdf>]
 File: Figures/background.jpeg Graphic file (type jpg)
 <use Figures/background.jpeg>
-Package pdftex.def Info: Figures/background.jpeg  used on input line 128.
+Package pdftex.def Info: Figures/background.jpeg  used on input line 115.
 (pdftex.def)             Requested size: 364.18698pt x 273.14621pt.
- [12
+ [10
 
 ]
-<Figures/v3/main/training.pdf, id=528, 480.15436pt x 309.97131pt>
+<Figures/v3/main/training.pdf, id=517, 480.15436pt x 309.97131pt>
 File: Figures/v3/main/training.pdf Graphic file (type pdf)
 <use Figures/v3/main/training.pdf>
-Package pdftex.def Info: Figures/v3/main/training.pdf  used on input line 159.
+Package pdftex.def Info: Figures/v3/main/training.pdf  used on input line 146.
 (pdftex.def)             Requested size: 110.62659pt x 71.41487pt.
-<Figures/v3/main/loss.jpg, id=529, 681.54625pt x 513.92pt>
+<Figures/v3/main/loss.jpg, id=518, 681.54625pt x 513.92pt>
 File: Figures/v3/main/loss.jpg Graphic file (type jpg)
 <use Figures/v3/main/loss.jpg>
-Package pdftex.def Info: Figures/v3/main/loss.jpg  used on input line 159.
+Package pdftex.def Info: Figures/v3/main/loss.jpg  used on input line 146.
 (pdftex.def)             Requested size: 101.40724pt x 76.46516pt.
 
-Overfull \hbox (14.42287pt too wide) in paragraph at lines 159--159
+Overfull \hbox (14.42287pt too wide) in paragraph at lines 146--146
  [] 
  []
 
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 159.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 146.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[13
+[11
 
  <./Figures/v3/main/training.pdf> <./Figures/v3/main/loss.jpg>]
 File: Figures/background.jpeg Graphic file (type jpg)
 <use Figures/background.jpeg>
-Package pdftex.def Info: Figures/background.jpeg  used on input line 161.
+Package pdftex.def Info: Figures/background.jpeg  used on input line 149.
 (pdftex.def)             Requested size: 364.18698pt x 273.14621pt.
- [14
+ [12
 
 ]
-<Figures/v3/20210513/111-TCI_with_zoom_roi.pdf, id=549, 443.82886pt x 446.24731pt>
+<Figures/old_results.pdf, id=538, 396.80785pt x 246.51468pt>
+File: Figures/old_results.pdf Graphic file (type pdf)
+<use Figures/old_results.pdf>
+Package pdftex.def Info: Figures/old_results.pdf  used on input line 155.
+(pdftex.def)             Requested size: 227.62204pt x 141.41005pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 155.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [13
+
+ <./Figures/old_results.pdf>]
+<Figures/v3/20210513/111-TCI_with_zoom_roi.pdf, id=552, 443.82886pt x 446.24731pt>
 File: Figures/v3/20210513/111-TCI_with_zoom_roi.pdf Graphic file (type pdf)
 <use Figures/v3/20210513/111-TCI_with_zoom_roi.pdf>
-Package pdftex.def Info: Figures/v3/20210513/111-TCI_with_zoom_roi.pdf  used on input line 188.
+Package pdftex.def Info: Figures/v3/20210513/111-TCI_with_zoom_roi.pdf  used on input line 184.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 188
+Overfull \vbox (69.56656pt too high) detected at line 184
  []
 
-<Figures/v3/20210513/222-error_map_with_zoom_roi.pdf, id=550, 443.82886pt x 446.24731pt>
+<Figures/v3/20210513/222-error_map_with_zoom_roi.pdf, id=553, 443.82886pt x 446.24731pt>
 File: Figures/v3/20210513/222-error_map_with_zoom_roi.pdf Graphic file (type pdf)
 <use Figures/v3/20210513/222-error_map_with_zoom_roi.pdf>
-Package pdftex.def Info: Figures/v3/20210513/222-error_map_with_zoom_roi.pdf  used on input line 188.
+Package pdftex.def Info: Figures/v3/20210513/222-error_map_with_zoom_roi.pdf  used on input line 184.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210513/binary_mask_umbral_04/zoom1.png, id=551, 717.68124pt x 780.9175pt>
+<Figures/v3/20210513/binary_mask_umbral_04/zoom1.png, id=554, 717.68124pt x 780.9175pt>
 File: Figures/v3/20210513/binary_mask_umbral_04/zoom1.png Graphic file (type png)
 <use Figures/v3/20210513/binary_mask_umbral_04/zoom1.png>
-Package pdftex.def Info: Figures/v3/20210513/binary_mask_umbral_04/zoom1.png  used on input line 188.
-(pdftex.def)             Requested size: 76.82234pt x 83.58951pt.
-<Figures/v4/20210513/error_map_BI_zoom1.pdf, id=552, 443.82889pt x 446.24734pt>
+Package pdftex.def Info: Figures/v3/20210513/binary_mask_umbral_04/zoom1.png  used on input line 184.
+(pdftex.def)             Requested size: 76.8207pt x 85.35306pt.
+<Figures/v4/20210513/error_map_BI_zoom1.pdf, id=555, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210513/error_map_BI_zoom1.pdf Graphic file (type pdf)
 <use Figures/v4/20210513/error_map_BI_zoom1.pdf>
-Package pdftex.def Info: Figures/v4/20210513/error_map_BI_zoom1.pdf  used on input line 188.
+Package pdftex.def Info: Figures/v4/20210513/error_map_BI_zoom1.pdf  used on input line 184.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210513/zoom1_IB.png, id=553, 429.605pt x 495.8525pt>
+<Figures/v4/20210513/zoom1_IB.png, id=556, 429.605pt x 495.8525pt>
 File: Figures/v4/20210513/zoom1_IB.png Graphic file (type png)
 <use Figures/v4/20210513/zoom1_IB.png>
-Package pdftex.def Info: Figures/v4/20210513/zoom1_IB.png  used on input line 188.
+Package pdftex.def Info: Figures/v4/20210513/zoom1_IB.png  used on input line 184.
 (pdftex.def)             Requested size: 76.8208pt x 85.35306pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 188.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 184.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[15
+[14
 
  <./Figures/v3/20210513/111-TCI_with_zoom_roi.pdf> <./Figures/v3/20210513/222-error_map_with_zoom_roi.pdf
 
@@ -1000,40 +1002,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210513/222-error_map_with_zoom_roi
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210513/error_map_BI_zoom1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210513/zoom1_IB.png>]
-<Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf, id=583, 443.82886pt x 446.24731pt>
+<Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf, id=586, 443.82886pt x 446.24731pt>
 File: Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf Graphic file (type pdf)
 <use Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf>
-Package pdftex.def Info: Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf  used on input line 216.
+Package pdftex.def Info: Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf  used on input line 212.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 216
+Overfull \vbox (69.56656pt too high) detected at line 212
  []
 
-<Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf, id=584, 443.82886pt x 446.24731pt>
+<Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf, id=587, 443.82886pt x 446.24731pt>
 File: Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf Graphic file (type pdf)
 <use Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf>
-Package pdftex.def Info: Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf  used on input line 216.
+Package pdftex.def Info: Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf  used on input line 212.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210513/binary_mask_umbral_04/zoom2.png, id=585, 480.79625pt x 434.62375pt>
+<Figures/v3/20210513/binary_mask_umbral_04/zoom2.png, id=588, 480.79625pt x 434.62375pt>
 File: Figures/v3/20210513/binary_mask_umbral_04/zoom2.png Graphic file (type png)
 <use Figures/v3/20210513/binary_mask_umbral_04/zoom2.png>
-Package pdftex.def Info: Figures/v3/20210513/binary_mask_umbral_04/zoom2.png  used on input line 216.
+Package pdftex.def Info: Figures/v3/20210513/binary_mask_umbral_04/zoom2.png  used on input line 212.
 (pdftex.def)             Requested size: 76.81892pt x 85.3581pt.
-<Figures/v4/20210513/error_map_BI_zoom2.pdf, id=586, 443.82889pt x 446.24734pt>
+<Figures/v4/20210513/error_map_BI_zoom2.pdf, id=589, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210513/error_map_BI_zoom2.pdf Graphic file (type pdf)
 <use Figures/v4/20210513/error_map_BI_zoom2.pdf>
-Package pdftex.def Info: Figures/v4/20210513/error_map_BI_zoom2.pdf  used on input line 216.
+Package pdftex.def Info: Figures/v4/20210513/error_map_BI_zoom2.pdf  used on input line 212.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210513/zoom2_BI.png, id=587, 734.745pt x 680.5425pt>
+<Figures/v4/20210513/zoom2_BI.png, id=590, 734.745pt x 680.5425pt>
 File: Figures/v4/20210513/zoom2_BI.png Graphic file (type png)
 <use Figures/v4/20210513/zoom2_BI.png>
-Package pdftex.def Info: Figures/v4/20210513/zoom2_BI.png  used on input line 216.
+Package pdftex.def Info: Figures/v4/20210513/zoom2_BI.png  used on input line 212.
 (pdftex.def)             Requested size: 76.81976pt x 85.35835pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 216.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 212.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[16
+[15
 
  <./Figures/v3/20210513/111-TCI_with_zoom_roi2.pdf> <./Figures/v3/20210513/222-error_map_with_zoom_roi2.pdf
 
@@ -1042,40 +1044,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210513/222-error_map_with_zoom_roi
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210513/error_map_BI_zoom2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210513/zoom2_BI.png>]
-<Figures/v3/20210525/TCI/TCI_zoom1.pdf, id=618, 443.82889pt x 446.24734pt>
+<Figures/v3/20210525/TCI/TCI_zoom1.pdf, id=621, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210525/TCI/TCI_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210525/TCI/TCI_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210525/TCI/TCI_zoom1.pdf  used on input line 244.
+Package pdftex.def Info: Figures/v3/20210525/TCI/TCI_zoom1.pdf  used on input line 240.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 244
+Overfull \vbox (69.56656pt too high) detected at line 240
  []
 
-<Figures/v3/20210525/error/error_zoom1.pdf, id=619, 443.82889pt x 446.24734pt>
+<Figures/v3/20210525/error/error_zoom1.pdf, id=622, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210525/error/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210525/error/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210525/error/error_zoom1.pdf  used on input line 244.
+Package pdftex.def Info: Figures/v3/20210525/error/error_zoom1.pdf  used on input line 240.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210525/umbral_04/zoom1.png, id=620, 706.64pt x 660.4675pt>
+<Figures/v3/20210525/umbral_04/zoom1.png, id=623, 706.64pt x 660.4675pt>
 File: Figures/v3/20210525/umbral_04/zoom1.png Graphic file (type png)
 <use Figures/v3/20210525/umbral_04/zoom1.png>
-Package pdftex.def Info: Figures/v3/20210525/umbral_04/zoom1.png  used on input line 244.
+Package pdftex.def Info: Figures/v3/20210525/umbral_04/zoom1.png  used on input line 240.
 (pdftex.def)             Requested size: 76.81413pt x 85.34981pt.
-<Figures/v4/20210525/error_zoom1.pdf, id=621, 443.82889pt x 446.24734pt>
+<Figures/v4/20210525/error_zoom1.pdf, id=624, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210525/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v4/20210525/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v4/20210525/error_zoom1.pdf  used on input line 244.
+Package pdftex.def Info: Figures/v4/20210525/error_zoom1.pdf  used on input line 240.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210525/zoom1_IB.png, id=622, 413.545pt x 363.3575pt>
+<Figures/v4/20210525/zoom1_IB.png, id=625, 413.545pt x 363.3575pt>
 File: Figures/v4/20210525/zoom1_IB.png Graphic file (type png)
 <use Figures/v4/20210525/zoom1_IB.png>
-Package pdftex.def Info: Figures/v4/20210525/zoom1_IB.png  used on input line 244.
+Package pdftex.def Info: Figures/v4/20210525/zoom1_IB.png  used on input line 240.
 (pdftex.def)             Requested size: 76.82013pt x 85.35574pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 244.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 240.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[17
+[16
 
  <./Figures/v3/20210525/TCI/TCI_zoom1.pdf> <./Figures/v3/20210525/error/error_zoom1.pdf
 
@@ -1084,40 +1086,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210525/error/error_zoom1.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210525/error_zoom1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210525/zoom1_IB.png>]
-<Figures/v3/20210525/TCI/TCI_zoom2.pdf, id=649, 443.82889pt x 446.24734pt>
+<Figures/v3/20210525/TCI/TCI_zoom2.pdf, id=652, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210525/TCI/TCI_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210525/TCI/TCI_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210525/TCI/TCI_zoom2.pdf  used on input line 273.
+Package pdftex.def Info: Figures/v3/20210525/TCI/TCI_zoom2.pdf  used on input line 275.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 273
+Overfull \vbox (69.56656pt too high) detected at line 275
  []
 
-<Figures/v3/20210525/error/error_zoom2.pdf, id=650, 443.82889pt x 446.24734pt>
+<Figures/v3/20210525/error/error_zoom2.pdf, id=653, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210525/error/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210525/error/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210525/error/error_zoom2.pdf  used on input line 273.
+Package pdftex.def Info: Figures/v3/20210525/error/error_zoom2.pdf  used on input line 275.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210525/umbral_04/zoom2.png, id=651, 706.64pt x 660.4675pt>
+<Figures/v3/20210525/umbral_04/zoom2.png, id=654, 706.64pt x 660.4675pt>
 File: Figures/v3/20210525/umbral_04/zoom2.png Graphic file (type png)
 <use Figures/v3/20210525/umbral_04/zoom2.png>
-Package pdftex.def Info: Figures/v3/20210525/umbral_04/zoom2.png  used on input line 273.
+Package pdftex.def Info: Figures/v3/20210525/umbral_04/zoom2.png  used on input line 275.
 (pdftex.def)             Requested size: 76.81413pt x 85.34981pt.
-<Figures/v4/20210525/error_zoom2.pdf, id=652, 443.82889pt x 446.24734pt>
+<Figures/v4/20210525/error_zoom2.pdf, id=655, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210525/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v4/20210525/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v4/20210525/error_zoom2.pdf  used on input line 273.
+Package pdftex.def Info: Figures/v4/20210525/error_zoom2.pdf  used on input line 275.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210525/zoom2_BI.png, id=653, 385.44pt x 363.3575pt>
+<Figures/v4/20210525/zoom2_BI.png, id=656, 385.44pt x 363.3575pt>
 File: Figures/v4/20210525/zoom2_BI.png Graphic file (type png)
 <use Figures/v4/20210525/zoom2_BI.png>
-Package pdftex.def Info: Figures/v4/20210525/zoom2_BI.png  used on input line 273.
+Package pdftex.def Info: Figures/v4/20210525/zoom2_BI.png  used on input line 275.
 (pdftex.def)             Requested size: 76.82196pt x 85.35574pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 273.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 275.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[18
+[17
 
  <./Figures/v3/20210525/TCI/TCI_zoom2.pdf> <./Figures/v3/20210525/error/error_zoom2.pdf
 
@@ -1126,40 +1128,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210525/error/error_zoom2.pdf): PDF
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210525/error_zoom2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210525/zoom2_BI.png>]
-<Figures/v3/20210528/TCI/TCI_zoom1.pdf, id=684, 443.82889pt x 446.24734pt>
+<Figures/v3/20210528/TCI/TCI_zoom1.pdf, id=687, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210528/TCI/TCI_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210528/TCI/TCI_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210528/TCI/TCI_zoom1.pdf  used on input line 301.
+Package pdftex.def Info: Figures/v3/20210528/TCI/TCI_zoom1.pdf  used on input line 303.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 301
+Overfull \vbox (69.56656pt too high) detected at line 303
  []
 
-<Figures/v3/20210528/error_map/error_zoom1.pdf, id=685, 443.82889pt x 446.24734pt>
+<Figures/v3/20210528/error_map/error_zoom1.pdf, id=688, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210528/error_map/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210528/error_map/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210528/error_map/error_zoom1.pdf  used on input line 301.
+Package pdftex.def Info: Figures/v3/20210528/error_map/error_zoom1.pdf  used on input line 303.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210528/umbral_04/zoom1.png, id=686, 667.49374pt x 608.2725pt>
+<Figures/v3/20210528/umbral_04/zoom1.png, id=689, 667.49374pt x 608.2725pt>
 File: Figures/v3/20210528/umbral_04/zoom1.png Graphic file (type png)
 <use Figures/v3/20210528/umbral_04/zoom1.png>
-Package pdftex.def Info: Figures/v3/20210528/umbral_04/zoom1.png  used on input line 301.
+Package pdftex.def Info: Figures/v3/20210528/umbral_04/zoom1.png  used on input line 303.
 (pdftex.def)             Requested size: 76.81618pt x 85.35248pt.
-<Figures/v4/20210528/error_zoom1.pdf, id=687, 443.82889pt x 446.24734pt>
+<Figures/v4/20210528/error_zoom1.pdf, id=690, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210528/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v4/20210528/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v4/20210528/error_zoom1.pdf  used on input line 301.
+Package pdftex.def Info: Figures/v4/20210528/error_zoom1.pdf  used on input line 303.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210528/zoom1_IB.png, id=688, 389.455pt x 379.4175pt>
+<Figures/v4/20210528/zoom1_IB.png, id=691, 389.455pt x 379.4175pt>
 File: Figures/v4/20210528/zoom1_IB.png Graphic file (type png)
 <use Figures/v4/20210528/zoom1_IB.png>
-Package pdftex.def Info: Figures/v4/20210528/zoom1_IB.png  used on input line 301.
+Package pdftex.def Info: Figures/v4/20210528/zoom1_IB.png  used on input line 303.
 (pdftex.def)             Requested size: 76.81995pt x 85.35367pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 301.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 303.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[19
+[18
 
  <./Figures/v3/20210528/TCI/TCI_zoom1.pdf> <./Figures/v3/20210528/error_map/error_zoom1.pdf
 
@@ -1168,40 +1170,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210528/error_map/error_zoom1.pdf):
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210528/error_zoom1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210528/zoom1_IB.png>]
-<Figures/v3/20210528/TCI/TCI_zoom2.pdf, id=717, 443.82889pt x 446.24734pt>
+<Figures/v3/20210528/TCI/TCI_zoom2.pdf, id=719, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210528/TCI/TCI_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210528/TCI/TCI_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210528/TCI/TCI_zoom2.pdf  used on input line 329.
+Package pdftex.def Info: Figures/v3/20210528/TCI/TCI_zoom2.pdf  used on input line 331.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 329
+Overfull \vbox (69.56656pt too high) detected at line 331
  []
 
-<Figures/v3/20210528/error_map/error_zoom2.pdf, id=718, 443.82889pt x 446.24734pt>
+<Figures/v3/20210528/error_map/error_zoom2.pdf, id=720, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210528/error_map/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210528/error_map/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210528/error_map/error_zoom2.pdf  used on input line 329.
+Package pdftex.def Info: Figures/v3/20210528/error_map/error_zoom2.pdf  used on input line 331.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210528/umbral_04/zoom2.png, id=719, 667.49374pt x 608.2725pt>
+<Figures/v3/20210528/umbral_04/zoom2.png, id=721, 667.49374pt x 608.2725pt>
 File: Figures/v3/20210528/umbral_04/zoom2.png Graphic file (type png)
 <use Figures/v3/20210528/umbral_04/zoom2.png>
-Package pdftex.def Info: Figures/v3/20210528/umbral_04/zoom2.png  used on input line 329.
+Package pdftex.def Info: Figures/v3/20210528/umbral_04/zoom2.png  used on input line 331.
 (pdftex.def)             Requested size: 76.81618pt x 85.35248pt.
-<Figures/v4/20210528/error_zoom2.pdf, id=720, 443.82889pt x 446.24734pt>
+<Figures/v4/20210528/error_zoom2.pdf, id=722, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210528/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v4/20210528/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v4/20210528/error_zoom2.pdf  used on input line 329.
+Package pdftex.def Info: Figures/v4/20210528/error_zoom2.pdf  used on input line 331.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210528/zoom2_BI.png, id=721, 417.56pt x 379.4175pt>
+<Figures/v4/20210528/zoom2_BI.png, id=723, 417.56pt x 379.4175pt>
 File: Figures/v4/20210528/zoom2_BI.png Graphic file (type png)
 <use Figures/v4/20210528/zoom2_BI.png>
-Package pdftex.def Info: Figures/v4/20210528/zoom2_BI.png  used on input line 329.
+Package pdftex.def Info: Figures/v4/20210528/zoom2_BI.png  used on input line 331.
 (pdftex.def)             Requested size: 76.8205pt x 85.35367pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 329.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 331.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[20
+[19
 
  <./Figures/v3/20210528/TCI/TCI_zoom2.pdf> <./Figures/v3/20210528/error_map/error_zoom2.pdf
 
@@ -1210,40 +1212,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210528/error_map/error_zoom2.pdf):
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210528/error_zoom2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210528/zoom2_BI.png>]
-<Figures/v3/20210530/TCI/tci_zoom1.pdf, id=749, 443.82889pt x 446.24734pt>
+<Figures/v3/20210530/TCI/tci_zoom1.pdf, id=752, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210530/TCI/tci_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210530/TCI/tci_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210530/TCI/tci_zoom1.pdf  used on input line 357.
+Package pdftex.def Info: Figures/v3/20210530/TCI/tci_zoom1.pdf  used on input line 359.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 357
+Overfull \vbox (69.56656pt too high) detected at line 359
  []
 
-<Figures/v3/20210530/error_map/error_zoom1.pdf, id=750, 443.82889pt x 446.24734pt>
+<Figures/v3/20210530/error_map/error_zoom1.pdf, id=753, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210530/error_map/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210530/error_map/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210530/error_map/error_zoom1.pdf  used on input line 357.
+Package pdftex.def Info: Figures/v3/20210530/error_map/error_zoom1.pdf  used on input line 359.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210530/umbral_04/zoom1.png, id=751, 701.62125pt x 699.61375pt>
+<Figures/v3/20210530/umbral_04/zoom1.png, id=754, 701.62125pt x 699.61375pt>
 File: Figures/v3/20210530/umbral_04/zoom1.png Graphic file (type png)
 <use Figures/v3/20210530/umbral_04/zoom1.png>
-Package pdftex.def Info: Figures/v3/20210530/umbral_04/zoom1.png  used on input line 357.
+Package pdftex.def Info: Figures/v3/20210530/umbral_04/zoom1.png  used on input line 359.
 (pdftex.def)             Requested size: 76.81458pt x 85.34848pt.
-<Figures/v4/20210530/error_zoom1.pdf, id=752, 443.82889pt x 446.24734pt>
+<Figures/v4/20210530/error_zoom1.pdf, id=755, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210530/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v4/20210530/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v4/20210530/error_zoom1.pdf  used on input line 357.
+Package pdftex.def Info: Figures/v4/20210530/error_zoom1.pdf  used on input line 359.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210530/zoom1_BI.png, id=753, 407.5225pt x 385.44pt>
+<Figures/v4/20210530/zoom1_BI.png, id=756, 407.5225pt x 385.44pt>
 File: Figures/v4/20210530/zoom1_BI.png Graphic file (type png)
 <use Figures/v4/20210530/zoom1_BI.png>
-Package pdftex.def Info: Figures/v4/20210530/zoom1_BI.png  used on input line 357.
+Package pdftex.def Info: Figures/v4/20210530/zoom1_BI.png  used on input line 359.
 (pdftex.def)             Requested size: 76.82068pt x 85.35579pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 357.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 359.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[21
+[20
 
  <./Figures/v3/20210530/TCI/tci_zoom1.pdf> <./Figures/v3/20210530/error_map/error_zoom1.pdf
 
@@ -1252,40 +1254,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210530/error_map/error_zoom1.pdf):
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210530/error_zoom1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210530/zoom1_BI.png>]
-<Figures/v3/20210530/TCI/tci_zoom2.pdf, id=783, 443.82889pt x 446.24734pt>
+<Figures/v3/20210530/TCI/tci_zoom2.pdf, id=786, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210530/TCI/tci_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210530/TCI/tci_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210530/TCI/tci_zoom2.pdf  used on input line 385.
+Package pdftex.def Info: Figures/v3/20210530/TCI/tci_zoom2.pdf  used on input line 387.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 385
+Overfull \vbox (69.56656pt too high) detected at line 387
  []
 
-<Figures/v3/20210530/error_map/error_zoom2.pdf, id=784, 443.82889pt x 446.24734pt>
+<Figures/v3/20210530/error_map/error_zoom2.pdf, id=787, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210530/error_map/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210530/error_map/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210530/error_map/error_zoom2.pdf  used on input line 385.
+Package pdftex.def Info: Figures/v3/20210530/error_map/error_zoom2.pdf  used on input line 387.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210530/umbral_04/zoom2.png, id=785, 701.62125pt x 699.61375pt>
+<Figures/v3/20210530/umbral_04/zoom2.png, id=788, 701.62125pt x 699.61375pt>
 File: Figures/v3/20210530/umbral_04/zoom2.png Graphic file (type png)
 <use Figures/v3/20210530/umbral_04/zoom2.png>
-Package pdftex.def Info: Figures/v3/20210530/umbral_04/zoom2.png  used on input line 385.
+Package pdftex.def Info: Figures/v3/20210530/umbral_04/zoom2.png  used on input line 387.
 (pdftex.def)             Requested size: 76.81458pt x 85.34848pt.
-<Figures/v4/20210530/error_zoom2.pdf, id=786, 443.82889pt x 446.24734pt>
+<Figures/v4/20210530/error_zoom2.pdf, id=789, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210530/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v4/20210530/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v4/20210530/error_zoom2.pdf  used on input line 385.
+Package pdftex.def Info: Figures/v4/20210530/error_zoom2.pdf  used on input line 387.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210530/zoom2_BI.png, id=787, 534.99875pt x 508.90125pt>
+<Figures/v4/20210530/zoom2_BI.png, id=790, 534.99875pt x 508.90125pt>
 File: Figures/v4/20210530/zoom2_BI.png Graphic file (type png)
 <use Figures/v4/20210530/zoom2_BI.png>
-Package pdftex.def Info: Figures/v4/20210530/zoom2_BI.png  used on input line 385.
+Package pdftex.def Info: Figures/v4/20210530/zoom2_BI.png  used on input line 387.
 (pdftex.def)             Requested size: 76.8177pt x 85.35504pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 385.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 387.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[22
+[21
 
  <./Figures/v3/20210530/TCI/tci_zoom2.pdf> <./Figures/v3/20210530/error_map/error_zoom2.pdf
 
@@ -1294,40 +1296,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210530/error_map/error_zoom2.pdf):
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210530/error_zoom2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210530/zoom2_BI.png>]
-<Figures/v3/20210602/TCI/tci_zoom1.pdf, id=823, 443.82889pt x 446.24734pt>
+<Figures/v3/20210602/TCI/tci_zoom1.pdf, id=826, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210602/TCI/tci_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210602/TCI/tci_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210602/TCI/tci_zoom1.pdf  used on input line 413.
+Package pdftex.def Info: Figures/v3/20210602/TCI/tci_zoom1.pdf  used on input line 415.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 413
+Overfull \vbox (69.56656pt too high) detected at line 415
  []
 
-<Figures/v3/20210602/error_map/error_zoom1.pdf, id=824, 443.82889pt x 446.24734pt>
+<Figures/v3/20210602/error_map/error_zoom1.pdf, id=827, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210602/error_map/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v3/20210602/error_map/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v3/20210602/error_map/error_zoom1.pdf  used on input line 413.
+Package pdftex.def Info: Figures/v3/20210602/error_map/error_zoom1.pdf  used on input line 415.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210602/umbral_04/zoom1.png, id=825, 633.36626pt x 676.5275pt>
+<Figures/v3/20210602/umbral_04/zoom1.png, id=828, 633.36626pt x 676.5275pt>
 File: Figures/v3/20210602/umbral_04/zoom1.png Graphic file (type png)
 <use Figures/v3/20210602/umbral_04/zoom1.png>
-Package pdftex.def Info: Figures/v3/20210602/umbral_04/zoom1.png  used on input line 413.
+Package pdftex.def Info: Figures/v3/20210602/umbral_04/zoom1.png  used on input line 415.
 (pdftex.def)             Requested size: 76.82214pt x 85.35027pt.
-<Figures/v4/20210602/error_zoom1.pdf, id=826, 443.82889pt x 446.24734pt>
+<Figures/v4/20210602/error_zoom1.pdf, id=829, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210602/error_zoom1.pdf Graphic file (type pdf)
 <use Figures/v4/20210602/error_zoom1.pdf>
-Package pdftex.def Info: Figures/v4/20210602/error_zoom1.pdf  used on input line 413.
+Package pdftex.def Info: Figures/v4/20210602/error_zoom1.pdf  used on input line 415.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210602/zoom1_BI.png, id=827, 519.9425pt x 523.9575pt>
+<Figures/v4/20210602/zoom1_BI.png, id=830, 519.9425pt x 523.9575pt>
 File: Figures/v4/20210602/zoom1_BI.png Graphic file (type png)
 <use Figures/v4/20210602/zoom1_BI.png>
-Package pdftex.def Info: Figures/v4/20210602/zoom1_BI.png  used on input line 413.
+Package pdftex.def Info: Figures/v4/20210602/zoom1_BI.png  used on input line 415.
 (pdftex.def)             Requested size: 76.82176pt x 85.35394pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 413.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 415.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[23
+[22
 
  <./Figures/v3/20210602/TCI/tci_zoom1.pdf> <./Figures/v3/20210602/error_map/error_zoom1.pdf
 
@@ -1336,40 +1338,40 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210602/error_map/error_zoom1.pdf):
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210602/error_zoom1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210602/zoom1_BI.png>]
-<Figures/v3/20210602/TCI/tci_zoom2.pdf, id=858, 443.82889pt x 446.24734pt>
+<Figures/v3/20210602/TCI/tci_zoom2.pdf, id=861, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210602/TCI/tci_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210602/TCI/tci_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210602/TCI/tci_zoom2.pdf  used on input line 442.
+Package pdftex.def Info: Figures/v3/20210602/TCI/tci_zoom2.pdf  used on input line 444.
 (pdftex.def)             Requested size: 92.1879pt x 92.68651pt.
 
-Overfull \vbox (69.56656pt too high) detected at line 442
+Overfull \vbox (69.56656pt too high) detected at line 444
  []
 
-<Figures/v3/20210602/error_map/error_zoom2.pdf, id=859, 443.82889pt x 446.24734pt>
+<Figures/v3/20210602/error_map/error_zoom2.pdf, id=862, 443.82889pt x 446.24734pt>
 File: Figures/v3/20210602/error_map/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v3/20210602/error_map/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v3/20210602/error_map/error_zoom2.pdf  used on input line 442.
+Package pdftex.def Info: Figures/v3/20210602/error_map/error_zoom2.pdf  used on input line 444.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v3/20210602/umbral_04/zoom2.png, id=860, 633.36626pt x 676.5275pt>
+<Figures/v3/20210602/umbral_04/zoom2.png, id=863, 633.36626pt x 676.5275pt>
 File: Figures/v3/20210602/umbral_04/zoom2.png Graphic file (type png)
 <use Figures/v3/20210602/umbral_04/zoom2.png>
-Package pdftex.def Info: Figures/v3/20210602/umbral_04/zoom2.png  used on input line 442.
+Package pdftex.def Info: Figures/v3/20210602/umbral_04/zoom2.png  used on input line 444.
 (pdftex.def)             Requested size: 76.82214pt x 85.35027pt.
-<Figures/v4/20210602/error_zoom2.pdf, id=861, 443.82889pt x 446.24734pt>
+<Figures/v4/20210602/error_zoom2.pdf, id=864, 443.82889pt x 446.24734pt>
 File: Figures/v4/20210602/error_zoom2.pdf Graphic file (type pdf)
 <use Figures/v4/20210602/error_zoom2.pdf>
-Package pdftex.def Info: Figures/v4/20210602/error_zoom2.pdf  used on input line 442.
+Package pdftex.def Info: Figures/v4/20210602/error_zoom2.pdf  used on input line 444.
 (pdftex.def)             Requested size: 85.35826pt x 85.82286pt.
-<Figures/v4/20210602/zoom2_BI.png, id=862, 454.69875pt x 523.9575pt>
+<Figures/v4/20210602/zoom2_BI.png, id=865, 454.69875pt x 523.9575pt>
 File: Figures/v4/20210602/zoom2_BI.png Graphic file (type png)
 <use Figures/v4/20210602/zoom2_BI.png>
-Package pdftex.def Info: Figures/v4/20210602/zoom2_BI.png  used on input line 442.
+Package pdftex.def Info: Figures/v4/20210602/zoom2_BI.png  used on input line 444.
 (pdftex.def)             Requested size: 76.81903pt x 85.35394pt.
 File: Figures/logos.pdf Graphic file (type pdf)
 <use Figures/logos.pdf>
-Package pdftex.def Info: Figures/logos.pdf  used on input line 442.
+Package pdftex.def Info: Figures/logos.pdf  used on input line 444.
 (pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
-[24
+[23
 
  <./Figures/v3/20210602/TCI/tci_zoom2.pdf> <./Figures/v3/20210602/error_map/error_zoom2.pdf
 
@@ -1378,6 +1380,611 @@ pdfTeX warning: pdflatex (file ./Figures/v3/20210602/error_map/error_zoom2.pdf):
 
 pdfTeX warning: pdflatex (file ./Figures/v4/20210602/error_zoom2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./Figures/v4/20210602/zoom2_BI.png>]
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 452.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [24
+
+]
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 463.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [25
+
+]
+<Figures/compute_BI.pdf, id=911, 334.78082pt x 123.77234pt>
+File: Figures/compute_BI.pdf Graphic file (type pdf)
+<use Figures/compute_BI.pdf>
+Package pdftex.def Info: Figures/compute_BI.pdf  used on input line 471.
+(pdftex.def)             Requested size: 312.9803pt x 115.72275pt.
+
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 471--471
+ [] 
+ []
+
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 471.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+[26
+
+ <./Figures/compute_BI.pdf>]
+<Figures/BI_22MET.png, id=924, 788.9475pt x 792.9625pt>
+File: Figures/BI_22MET.png Graphic file (type png)
+<use Figures/BI_22MET.png>
+Package pdftex.def Info: Figures/BI_22MET.png  used on input line 479.
+(pdftex.def)             Requested size: 184.9429pt x 185.87433pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 479.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [27
+
+ <./Figures/BI_22MET.png>]
+File: Figures/background.jpeg Graphic file (type jpg)
+<use Figures/background.jpeg>
+Package pdftex.def Info: Figures/background.jpeg  used on input line 481.
+(pdftex.def)             Requested size: 364.18698pt x 273.14621pt.
+ [28
+
+]
+<Figures/v6/20210513/TCI_zoom1.png, id=937, 584.1825pt x 582.175pt>
+File: Figures/v6/20210513/TCI_zoom1.png Graphic file (type png)
+<use Figures/v6/20210513/TCI_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210513/TCI_zoom1.png  used on input line 488.
+(pdftex.def)             Requested size: 76.81995pt x 85.35039pt.
+<Figures/v6/20210513/error_map_zoom1.png, id=938, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/error_map_zoom1.png Graphic file (type png)
+<use Figures/v6/20210513/error_map_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210513/error_map_zoom1.png  used on input line 488.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/zoom1_BI.png, id=939, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/zoom1_BI.png Graphic file (type png)
+<use Figures/v6/20210513/zoom1_BI.png>
+Package pdftex.def Info: Figures/v6/20210513/zoom1_BI.png  used on input line 488.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/TCI_zoom2.png, id=940, 731.73375pt x 710.655pt>
+File: Figures/v6/20210513/TCI_zoom2.png Graphic file (type png)
+<use Figures/v6/20210513/TCI_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210513/TCI_zoom2.png  used on input line 488.
+(pdftex.def)             Requested size: 76.81755pt x 85.35081pt.
+<Figures/v6/20210513/error_map_zoom2.png, id=941, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/error_map_zoom2.png Graphic file (type png)
+<use Figures/v6/20210513/error_map_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210513/error_map_zoom2.png  used on input line 488.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/zoom2_BI.png, id=942, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/zoom2_BI.png Graphic file (type png)
+<use Figures/v6/20210513/zoom2_BI.png>
+Package pdftex.def Info: Figures/v6/20210513/zoom2_BI.png  used on input line 488.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 488.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [29
+
+ <./Figures/v6/20210513/TCI_zoom1.png> <./Figures/v6/20210513/error_map_zoom1.png> <./Figures/v6/20210513/zoom1_BI.png> <./Figures/v6/20210513/TCI_zoom2.png> <./Figures/v6/20210513/error_map_zoom2.png> <./Figures/v6/20210513/zoom2_BI.png>]
+<Figures/v6/20210513/TCI_zoom3.png, id=955, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/TCI_zoom3.png Graphic file (type png)
+<use Figures/v6/20210513/TCI_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210513/TCI_zoom3.png  used on input line 496.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/error_map_zoom3.png, id=956, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/error_map_zoom3.png Graphic file (type png)
+<use Figures/v6/20210513/error_map_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210513/error_map_zoom3.png  used on input line 496.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/zoom3_BI.png, id=957, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/zoom3_BI.png Graphic file (type png)
+<use Figures/v6/20210513/zoom3_BI.png>
+Package pdftex.def Info: Figures/v6/20210513/zoom3_BI.png  used on input line 496.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/TCI_zoom4.png, id=958, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/TCI_zoom4.png Graphic file (type png)
+<use Figures/v6/20210513/TCI_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210513/TCI_zoom4.png  used on input line 496.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+<Figures/v6/20210513/error_map_zoom4.png, id=959, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/error_map_zoom4.png Graphic file (type png)
+<use Figures/v6/20210513/error_map_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210513/error_map_zoom4.png  used on input line 496.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+<Figures/v6/20210513/zoom4_BI.png, id=960, 335.2525pt x 400.49625pt>
+File: Figures/v6/20210513/zoom4_BI.png Graphic file (type png)
+<use Figures/v6/20210513/zoom4_BI.png>
+Package pdftex.def Info: Figures/v6/20210513/zoom4_BI.png  used on input line 496.
+(pdftex.def)             Requested size: 76.81998pt x 85.35335pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 496.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [30
+
+ <./Figures/v6/20210513/TCI_zoom3.png> <./Figures/v6/20210513/error_map_zoom3.png> <./Figures/v6/20210513/zoom3_BI.png> <./Figures/v6/20210513/TCI_zoom4.png> <./Figures/v6/20210513/error_map_zoom4.png> <./Figures/v6/20210513/zoom4_BI.png>]
+<Figures/v6/20210513/TCI_zoom5.png, id=972, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/TCI_zoom5.png Graphic file (type png)
+<use Figures/v6/20210513/TCI_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210513/TCI_zoom5.png  used on input line 504.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+<Figures/v6/20210513/error_map_zoom5.png, id=973, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/error_map_zoom5.png Graphic file (type png)
+<use Figures/v6/20210513/error_map_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210513/error_map_zoom5.png  used on input line 504.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+<Figures/v6/20210513/zoom5_BI.png, id=974, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/zoom5_BI.png Graphic file (type png)
+<use Figures/v6/20210513/zoom5_BI.png>
+Package pdftex.def Info: Figures/v6/20210513/zoom5_BI.png  used on input line 504.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+<Figures/v6/20210513/TCI_zoom6.png, id=975, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/TCI_zoom6.png Graphic file (type png)
+<use Figures/v6/20210513/TCI_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210513/TCI_zoom6.png  used on input line 504.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+<Figures/v6/20210513/error_map_zoom6.png, id=976, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/error_map_zoom6.png Graphic file (type png)
+<use Figures/v6/20210513/error_map_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210513/error_map_zoom6.png  used on input line 504.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+<Figures/v6/20210513/zoom6_BI.png, id=977, 329.23pt x 400.49625pt>
+File: Figures/v6/20210513/zoom6_BI.png Graphic file (type png)
+<use Figures/v6/20210513/zoom6_BI.png>
+Package pdftex.def Info: Figures/v6/20210513/zoom6_BI.png  used on input line 504.
+(pdftex.def)             Requested size: 76.82147pt x 85.35335pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 504.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [31
+
+ <./Figures/v6/20210513/TCI_zoom5.png> <./Figures/v6/20210513/error_map_zoom5.png> <./Figures/v6/20210513/zoom5_BI.png> <./Figures/v6/20210513/TCI_zoom6.png> <./Figures/v6/20210513/error_map_zoom6.png> <./Figures/v6/20210513/zoom6_BI.png>]
+<Figures/v6/20210525/TCI_zoom1.png, id=990, 793.96625pt x 790.955pt>
+File: Figures/v6/20210525/TCI_zoom1.png Graphic file (type png)
+<use Figures/v6/20210525/TCI_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210525/TCI_zoom1.png  used on input line 512.
+(pdftex.def)             Requested size: 76.82079pt x 85.35187pt.
+<Figures/v6/20210525/error_map_zoom1.png, id=991, 793.96625pt x 790.955pt>
+File: Figures/v6/20210525/error_map_zoom1.png Graphic file (type png)
+<use Figures/v6/20210525/error_map_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210525/error_map_zoom1.png  used on input line 512.
+(pdftex.def)             Requested size: 76.82079pt x 85.35187pt.
+<Figures/v6/20210525/zoom1_BI.png, id=992, 793.96625pt x 790.955pt>
+File: Figures/v6/20210525/zoom1_BI.png Graphic file (type png)
+<use Figures/v6/20210525/zoom1_BI.png>
+Package pdftex.def Info: Figures/v6/20210525/zoom1_BI.png  used on input line 512.
+(pdftex.def)             Requested size: 76.82079pt x 85.35187pt.
+<Figures/v6/20210525/TCI_zoom2.png, id=993, 533.995pt x 526.96875pt>
+File: Figures/v6/20210525/TCI_zoom2.png Graphic file (type png)
+<use Figures/v6/20210525/TCI_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210525/TCI_zoom2.png  used on input line 512.
+(pdftex.def)             Requested size: 76.82025pt x 85.35399pt.
+<Figures/v6/20210525/error_map_zoom2.png, id=994, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/error_map_zoom2.png Graphic file (type png)
+<use Figures/v6/20210525/error_map_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210525/error_map_zoom2.png  used on input line 512.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/zoom2_BI.png, id=995, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/zoom2_BI.png Graphic file (type png)
+<use Figures/v6/20210525/zoom2_BI.png>
+Package pdftex.def Info: Figures/v6/20210525/zoom2_BI.png  used on input line 512.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 512.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [32
+
+ <./Figures/v6/20210525/TCI_zoom1.png> <./Figures/v6/20210525/error_map_zoom1.png> <./Figures/v6/20210525/zoom1_BI.png> <./Figures/v6/20210525/TCI_zoom2.png> <./Figures/v6/20210525/error_map_zoom2.png> <./Figures/v6/20210525/zoom2_BI.png>]
+<Figures/v6/20210525/TCI_zoom3.png, id=1007, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/TCI_zoom3.png Graphic file (type png)
+<use Figures/v6/20210525/TCI_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210525/TCI_zoom3.png  used on input line 520.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/error_map_zoom3.png, id=1008, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/error_map_zoom3.png Graphic file (type png)
+<use Figures/v6/20210525/error_map_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210525/error_map_zoom3.png  used on input line 520.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/zoom3_BI.png, id=1009, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/zoom3_BI.png Graphic file (type png)
+<use Figures/v6/20210525/zoom3_BI.png>
+Package pdftex.def Info: Figures/v6/20210525/zoom3_BI.png  used on input line 520.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/TCI_zoom4.png, id=1010, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/TCI_zoom4.png Graphic file (type png)
+<use Figures/v6/20210525/TCI_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210525/TCI_zoom4.png  used on input line 520.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/error_map_zoom4.png, id=1011, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/error_map_zoom4.png Graphic file (type png)
+<use Figures/v6/20210525/error_map_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210525/error_map_zoom4.png  used on input line 520.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/zoom4_BI.png, id=1012, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/zoom4_BI.png Graphic file (type png)
+<use Figures/v6/20210525/zoom4_BI.png>
+Package pdftex.def Info: Figures/v6/20210525/zoom4_BI.png  used on input line 520.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 520.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [33
+
+ <./Figures/v6/20210525/TCI_zoom3.png> <./Figures/v6/20210525/error_map_zoom3.png> <./Figures/v6/20210525/zoom3_BI.png> <./Figures/v6/20210525/TCI_zoom4.png> <./Figures/v6/20210525/error_map_zoom4.png> <./Figures/v6/20210525/zoom4_BI.png>]
+<Figures/v6/20210525/TCI_zoom5.png, id=1024, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/TCI_zoom5.png Graphic file (type png)
+<use Figures/v6/20210525/TCI_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210525/TCI_zoom5.png  used on input line 528.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/error_map_zoom5.png, id=1025, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/error_map_zoom5.png Graphic file (type png)
+<use Figures/v6/20210525/error_map_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210525/error_map_zoom5.png  used on input line 528.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/zoom5_BI.png, id=1026, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/zoom5_BI.png Graphic file (type png)
+<use Figures/v6/20210525/zoom5_BI.png>
+Package pdftex.def Info: Figures/v6/20210525/zoom5_BI.png  used on input line 528.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/TCI_zoom6.png, id=1027, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/TCI_zoom6.png Graphic file (type png)
+<use Figures/v6/20210525/TCI_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210525/TCI_zoom6.png  used on input line 528.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/error_map_zoom6.png, id=1028, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/error_map_zoom6.png Graphic file (type png)
+<use Figures/v6/20210525/error_map_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210525/error_map_zoom6.png  used on input line 528.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210525/zoom6_BI.png, id=1029, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210525/zoom6_BI.png Graphic file (type png)
+<use Figures/v6/20210525/zoom6_BI.png>
+Package pdftex.def Info: Figures/v6/20210525/zoom6_BI.png  used on input line 528.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 528.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [34
+
+ <./Figures/v6/20210525/TCI_zoom5.png> <./Figures/v6/20210525/error_map_zoom5.png> <./Figures/v6/20210525/zoom5_BI.png> <./Figures/v6/20210525/TCI_zoom6.png> <./Figures/v6/20210525/error_map_zoom6.png> <./Figures/v6/20210525/zoom6_BI.png>]
+<Figures/v6/20210528/TCI_zoom1.png, id=1041, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/TCI_zoom1.png Graphic file (type png)
+<use Figures/v6/20210528/TCI_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210528/TCI_zoom1.png  used on input line 536.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/error_map_zoom1.png, id=1042, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/error_map_zoom1.png Graphic file (type png)
+<use Figures/v6/20210528/error_map_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210528/error_map_zoom1.png  used on input line 536.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/zoom1_BI.png, id=1043, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/zoom1_BI.png Graphic file (type png)
+<use Figures/v6/20210528/zoom1_BI.png>
+Package pdftex.def Info: Figures/v6/20210528/zoom1_BI.png  used on input line 536.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/TCI_zoom2.png, id=1044, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/TCI_zoom2.png Graphic file (type png)
+<use Figures/v6/20210528/TCI_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210528/TCI_zoom2.png  used on input line 536.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/error_map_zoom2.png, id=1045, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/error_map_zoom2.png Graphic file (type png)
+<use Figures/v6/20210528/error_map_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210528/error_map_zoom2.png  used on input line 536.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/zoom2_BI.png, id=1046, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/zoom2_BI.png Graphic file (type png)
+<use Figures/v6/20210528/zoom2_BI.png>
+Package pdftex.def Info: Figures/v6/20210528/zoom2_BI.png  used on input line 536.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 536.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [35
+
+ <./Figures/v6/20210528/TCI_zoom1.png> <./Figures/v6/20210528/error_map_zoom1.png> <./Figures/v6/20210528/zoom1_BI.png> <./Figures/v6/20210528/TCI_zoom2.png> <./Figures/v6/20210528/error_map_zoom2.png> <./Figures/v6/20210528/zoom2_BI.png>]
+<Figures/v6/20210528/TCI_zoom3.png, id=1058, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/TCI_zoom3.png Graphic file (type png)
+<use Figures/v6/20210528/TCI_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210528/TCI_zoom3.png  used on input line 544.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/error_map_zoom3.png, id=1059, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/error_map_zoom3.png Graphic file (type png)
+<use Figures/v6/20210528/error_map_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210528/error_map_zoom3.png  used on input line 544.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/zoom3_BI.png, id=1060, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/zoom3_BI.png Graphic file (type png)
+<use Figures/v6/20210528/zoom3_BI.png>
+Package pdftex.def Info: Figures/v6/20210528/zoom3_BI.png  used on input line 544.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/TCI_zoom4.png, id=1061, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/TCI_zoom4.png Graphic file (type png)
+<use Figures/v6/20210528/TCI_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210528/TCI_zoom4.png  used on input line 544.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/error_map_zoom4.png, id=1062, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/error_map_zoom4.png Graphic file (type png)
+<use Figures/v6/20210528/error_map_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210528/error_map_zoom4.png  used on input line 544.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/zoom4_BI.png, id=1063, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/zoom4_BI.png Graphic file (type png)
+<use Figures/v6/20210528/zoom4_BI.png>
+Package pdftex.def Info: Figures/v6/20210528/zoom4_BI.png  used on input line 544.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 544.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [36
+
+ <./Figures/v6/20210528/TCI_zoom3.png> <./Figures/v6/20210528/error_map_zoom3.png> <./Figures/v6/20210528/zoom3_BI.png> <./Figures/v6/20210528/TCI_zoom4.png> <./Figures/v6/20210528/error_map_zoom4.png> <./Figures/v6/20210528/zoom4_BI.png>]
+<Figures/v6/20210528/TCI_zoom5.png, id=1075, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/TCI_zoom5.png Graphic file (type png)
+<use Figures/v6/20210528/TCI_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210528/TCI_zoom5.png  used on input line 552.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/error_map_zoom5.png, id=1076, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/error_map_zoom5.png Graphic file (type png)
+<use Figures/v6/20210528/error_map_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210528/error_map_zoom5.png  used on input line 552.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/zoom5_BI.png, id=1077, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/zoom5_BI.png Graphic file (type png)
+<use Figures/v6/20210528/zoom5_BI.png>
+Package pdftex.def Info: Figures/v6/20210528/zoom5_BI.png  used on input line 552.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/TCI_zoom6.png, id=1078, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/TCI_zoom6.png Graphic file (type png)
+<use Figures/v6/20210528/TCI_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210528/TCI_zoom6.png  used on input line 552.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/error_map_zoom6.png, id=1079, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/error_map_zoom6.png Graphic file (type png)
+<use Figures/v6/20210528/error_map_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210528/error_map_zoom6.png  used on input line 552.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+<Figures/v6/20210528/zoom6_BI.png, id=1080, 482.80376pt x 498.86375pt>
+File: Figures/v6/20210528/zoom6_BI.png Graphic file (type png)
+<use Figures/v6/20210528/zoom6_BI.png>
+Package pdftex.def Info: Figures/v6/20210528/zoom6_BI.png  used on input line 552.
+(pdftex.def)             Requested size: 76.82289pt x 85.35378pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 552.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [37
+
+ <./Figures/v6/20210528/TCI_zoom5.png> <./Figures/v6/20210528/error_map_zoom5.png> <./Figures/v6/20210528/zoom5_BI.png> <./Figures/v6/20210528/TCI_zoom6.png> <./Figures/v6/20210528/error_map_zoom6.png> <./Figures/v6/20210528/zoom6_BI.png>]
+<Figures/v6/20210530/TCI_zoom1.png, id=1093, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/TCI_zoom1.png Graphic file (type png)
+<use Figures/v6/20210530/TCI_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210530/TCI_zoom1.png  used on input line 560.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/error_map_zoom1.png, id=1094, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/error_map_zoom1.png Graphic file (type png)
+<use Figures/v6/20210530/error_map_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210530/error_map_zoom1.png  used on input line 560.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/zoom1_BI.png, id=1095, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/zoom1_BI.png Graphic file (type png)
+<use Figures/v6/20210530/zoom1_BI.png>
+Package pdftex.def Info: Figures/v6/20210530/zoom1_BI.png  used on input line 560.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/TCI_zoom2.png, id=1096, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/TCI_zoom2.png Graphic file (type png)
+<use Figures/v6/20210530/TCI_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210530/TCI_zoom2.png  used on input line 560.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/error_map_zoom2.png, id=1097, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/error_map_zoom2.png Graphic file (type png)
+<use Figures/v6/20210530/error_map_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210530/error_map_zoom2.png  used on input line 560.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/zoom2_BI.png, id=1098, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/zoom2_BI.png Graphic file (type png)
+<use Figures/v6/20210530/zoom2_BI.png>
+Package pdftex.def Info: Figures/v6/20210530/zoom2_BI.png  used on input line 560.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 560.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [38
+
+ <./Figures/v6/20210530/TCI_zoom1.png> <./Figures/v6/20210530/error_map_zoom1.png> <./Figures/v6/20210530/zoom1_BI.png> <./Figures/v6/20210530/TCI_zoom2.png> <./Figures/v6/20210530/error_map_zoom2.png> <./Figures/v6/20210530/zoom2_BI.png>]
+<Figures/v6/20210530/TCI_zoom3.png, id=1110, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/TCI_zoom3.png Graphic file (type png)
+<use Figures/v6/20210530/TCI_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210530/TCI_zoom3.png  used on input line 568.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/error_map_zoom3.png, id=1111, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/error_map_zoom3.png Graphic file (type png)
+<use Figures/v6/20210530/error_map_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210530/error_map_zoom3.png  used on input line 568.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/zoom3_BI.png, id=1112, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/zoom3_BI.png Graphic file (type png)
+<use Figures/v6/20210530/zoom3_BI.png>
+Package pdftex.def Info: Figures/v6/20210530/zoom3_BI.png  used on input line 568.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/TCI_zoom4.png, id=1113, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/TCI_zoom4.png Graphic file (type png)
+<use Figures/v6/20210530/TCI_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210530/TCI_zoom4.png  used on input line 568.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/error_map_zoom4.png, id=1114, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/error_map_zoom4.png Graphic file (type png)
+<use Figures/v6/20210530/error_map_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210530/error_map_zoom4.png  used on input line 568.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/zoom4_BI.png, id=1115, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/zoom4_BI.png Graphic file (type png)
+<use Figures/v6/20210530/zoom4_BI.png>
+Package pdftex.def Info: Figures/v6/20210530/zoom4_BI.png  used on input line 568.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 568.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [39
+
+ <./Figures/v6/20210530/TCI_zoom3.png> <./Figures/v6/20210530/error_map_zoom3.png> <./Figures/v6/20210530/zoom3_BI.png> <./Figures/v6/20210530/TCI_zoom4.png> <./Figures/v6/20210530/error_map_zoom4.png> <./Figures/v6/20210530/zoom4_BI.png>]
+<Figures/v6/20210530/TCI_zoom5.png, id=1127, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/TCI_zoom5.png Graphic file (type png)
+<use Figures/v6/20210530/TCI_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210530/TCI_zoom5.png  used on input line 576.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/error_map_zoom5.png, id=1128, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/error_map_zoom5.png Graphic file (type png)
+<use Figures/v6/20210530/error_map_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210530/error_map_zoom5.png  used on input line 576.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/zoom5_BI.png, id=1129, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/zoom5_BI.png Graphic file (type png)
+<use Figures/v6/20210530/zoom5_BI.png>
+Package pdftex.def Info: Figures/v6/20210530/zoom5_BI.png  used on input line 576.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/TCI_zoom6.png, id=1130, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/TCI_zoom6.png Graphic file (type png)
+<use Figures/v6/20210530/TCI_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210530/TCI_zoom6.png  used on input line 576.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/error_map_zoom6.png, id=1131, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/error_map_zoom6.png Graphic file (type png)
+<use Figures/v6/20210530/error_map_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210530/error_map_zoom6.png  used on input line 576.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210530/zoom6_BI.png, id=1132, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210530/zoom6_BI.png Graphic file (type png)
+<use Figures/v6/20210530/zoom6_BI.png>
+Package pdftex.def Info: Figures/v6/20210530/zoom6_BI.png  used on input line 576.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 576.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [40
+
+ <./Figures/v6/20210530/TCI_zoom5.png> <./Figures/v6/20210530/error_map_zoom5.png> <./Figures/v6/20210530/zoom5_BI.png> <./Figures/v6/20210530/TCI_zoom6.png> <./Figures/v6/20210530/error_map_zoom6.png> <./Figures/v6/20210530/zoom6_BI.png>]
+<Figures/v6/20210602/TCI_zoom1.png, id=1145, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/TCI_zoom1.png Graphic file (type png)
+<use Figures/v6/20210602/TCI_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210602/TCI_zoom1.png  used on input line 584.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/error_map_zoom1.png, id=1146, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/error_map_zoom1.png Graphic file (type png)
+<use Figures/v6/20210602/error_map_zoom1.png>
+Package pdftex.def Info: Figures/v6/20210602/error_map_zoom1.png  used on input line 584.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/zoom1_BI.png, id=1147, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/zoom1_BI.png Graphic file (type png)
+<use Figures/v6/20210602/zoom1_BI.png>
+Package pdftex.def Info: Figures/v6/20210602/zoom1_BI.png  used on input line 584.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/TCI_zoom2.png, id=1148, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/TCI_zoom2.png Graphic file (type png)
+<use Figures/v6/20210602/TCI_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210602/TCI_zoom2.png  used on input line 584.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/error_map_zoom2.png, id=1149, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/error_map_zoom2.png Graphic file (type png)
+<use Figures/v6/20210602/error_map_zoom2.png>
+Package pdftex.def Info: Figures/v6/20210602/error_map_zoom2.png  used on input line 584.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/zoom2_BI.png, id=1150, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/zoom2_BI.png Graphic file (type png)
+<use Figures/v6/20210602/zoom2_BI.png>
+Package pdftex.def Info: Figures/v6/20210602/zoom2_BI.png  used on input line 584.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 584.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [41
+
+ <./Figures/v6/20210602/TCI_zoom1.png> <./Figures/v6/20210602/error_map_zoom1.png> <./Figures/v6/20210602/zoom1_BI.png> <./Figures/v6/20210602/TCI_zoom2.png> <./Figures/v6/20210602/error_map_zoom2.png> <./Figures/v6/20210602/zoom2_BI.png>]
+<Figures/v6/20210602/TCI_zoom3.png, id=1162, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/TCI_zoom3.png Graphic file (type png)
+<use Figures/v6/20210602/TCI_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210602/TCI_zoom3.png  used on input line 592.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/error_map_zoom3.png, id=1163, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/error_map_zoom3.png Graphic file (type png)
+<use Figures/v6/20210602/error_map_zoom3.png>
+Package pdftex.def Info: Figures/v6/20210602/error_map_zoom3.png  used on input line 592.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/zoom3_BI.png, id=1164, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/zoom3_BI.png Graphic file (type png)
+<use Figures/v6/20210602/zoom3_BI.png>
+Package pdftex.def Info: Figures/v6/20210602/zoom3_BI.png  used on input line 592.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/TCI_zoom4.png, id=1165, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/TCI_zoom4.png Graphic file (type png)
+<use Figures/v6/20210602/TCI_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210602/TCI_zoom4.png  used on input line 592.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/error_map_zoom4.png, id=1166, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/error_map_zoom4.png Graphic file (type png)
+<use Figures/v6/20210602/error_map_zoom4.png>
+Package pdftex.def Info: Figures/v6/20210602/error_map_zoom4.png  used on input line 592.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/zoom4_BI.png, id=1167, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/zoom4_BI.png Graphic file (type png)
+<use Figures/v6/20210602/zoom4_BI.png>
+Package pdftex.def Info: Figures/v6/20210602/zoom4_BI.png  used on input line 592.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 592.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [42
+
+ <./Figures/v6/20210602/TCI_zoom3.png> <./Figures/v6/20210602/error_map_zoom3.png> <./Figures/v6/20210602/zoom3_BI.png> <./Figures/v6/20210602/TCI_zoom4.png> <./Figures/v6/20210602/error_map_zoom4.png> <./Figures/v6/20210602/zoom4_BI.png>]
+<Figures/v6/20210602/TCI_zoom5.png, id=1179, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/TCI_zoom5.png Graphic file (type png)
+<use Figures/v6/20210602/TCI_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210602/TCI_zoom5.png  used on input line 600.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/error_map_zoom5.png, id=1180, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/error_map_zoom5.png Graphic file (type png)
+<use Figures/v6/20210602/error_map_zoom5.png>
+Package pdftex.def Info: Figures/v6/20210602/error_map_zoom5.png  used on input line 600.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/zoom5_BI.png, id=1181, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/zoom5_BI.png Graphic file (type png)
+<use Figures/v6/20210602/zoom5_BI.png>
+Package pdftex.def Info: Figures/v6/20210602/zoom5_BI.png  used on input line 600.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/TCI_zoom6.png, id=1182, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/TCI_zoom6.png Graphic file (type png)
+<use Figures/v6/20210602/TCI_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210602/TCI_zoom6.png  used on input line 600.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/error_map_zoom6.png, id=1183, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/error_map_zoom6.png Graphic file (type png)
+<use Figures/v6/20210602/error_map_zoom6.png>
+Package pdftex.def Info: Figures/v6/20210602/error_map_zoom6.png  used on input line 600.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+<Figures/v6/20210602/zoom6_BI.png, id=1184, 424.58624pt x 444.66125pt>
+File: Figures/v6/20210602/zoom6_BI.png Graphic file (type png)
+<use Figures/v6/20210602/zoom6_BI.png>
+Package pdftex.def Info: Figures/v6/20210602/zoom6_BI.png  used on input line 600.
+(pdftex.def)             Requested size: 76.81741pt x 85.35498pt.
+File: Figures/logos.pdf Graphic file (type pdf)
+<use Figures/logos.pdf>
+Package pdftex.def Info: Figures/logos.pdf  used on input line 600.
+(pdftex.def)             Requested size: 153.64493pt x 23.34665pt.
+ [43
+
+ <./Figures/v6/20210602/TCI_zoom5.png> <./Figures/v6/20210602/error_map_zoom5.png> <./Figures/v6/20210602/zoom5_BI.png> <./Figures/v6/20210602/TCI_zoom6.png> <./Figures/v6/20210602/error_map_zoom6.png> <./Figures/v6/20210602/zoom6_BI.png>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1389,25 +1996,26 @@ pdfTeX warning: pdflatex (file ./Figures/v4/20210602/error_zoom2.pdf): PDF inclu
 
  (./presentation.aux)
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: B47D557B15FA01BFF0AE142E1105E09A;357.
+(rerunfilecheck)             Checksum: EC01356F57330B73923EFBC24B342CDF;506.
  )
-(\end occurred when \iftrue on line 161 was incomplete)
-(\end occurred when \iftrue on line 128 was incomplete)
-(\end occurred when \iftrue on line 95 was incomplete)
-(\end occurred when \iftrue on line 46 was incomplete) 
+(\end occurred when \iftrue on line 481 was incomplete)
+(\end occurred when \iftrue on line 149 was incomplete)
+(\end occurred when \iftrue on line 115 was incomplete)
+(\end occurred when \iftrue on line 82 was incomplete)
+(\end occurred when \iftrue on line 40 was incomplete) 
 Here is how much of TeX's memory you used:
- 23920 strings out of 480129
- 466666 string characters out of 5893409
- 712815 words of memory out of 5000000
- 41277 multiletter control sequences out of 15000+600000
- 482446 words of font info for 63 fonts, out of 8000000 for 9000
+ 24604 strings out of 480129
+ 490879 string characters out of 5893409
+ 713815 words of memory out of 5000000
+ 41895 multiletter control sequences out of 15000+600000
+ 483561 words of font info for 65 fonts, out of 8000000 for 9000
  81 hyphenation exceptions out of 8191
  99i,16n,104p,498b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on presentation.pdf (24 pages, 42428301 bytes).
+ </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1095.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx0800.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx2074.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1440.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1000.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1095.600pk> </home/andrea/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecss2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on presentation.pdf (43 pages, 70046519 bytes).
 PDF statistics:
- 1151 PDF objects out of 1200 (max. 8388607)
- 589 compressed objects within 6 object streams
- 54 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1512 PDF objects out of 1728 (max. 8388607)
+ 704 compressed objects within 8 object streams
+ 93 named destinations out of 1000 (max. 500000)
+ 862 words of extra memory for PDF output out of 10000 (max. 10000000)
 

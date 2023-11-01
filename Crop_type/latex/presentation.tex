@@ -36,12 +36,6 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Updates}
-    \begin{itemize}
-        \item Computed the Brightness Index
-        \item Computed the error with Euclidean distance
-    \end{itemize}
-\end{frame}
 
 \section{Dataset}
 \begin{frame}{Dataset}
@@ -56,9 +50,9 @@
                 Number of polygons & 12 \\
                 Time range & \makecell{2021-05-01 \\ 2021-09-30} \\
                 Total number observations & 61\\
-                Number with HQ observations & 34 \\
-                Number of spectral bands & 12*\\
-                Number of features & 13 (bands + ndvi)\\
+                N° with HQ observations & 34 \\
+                N° of spectral bands & 12*\\
+                N° of features & \makecell{14\\(bands + ndvi + BI)}\\
                 \hline
                 \multicolumn{2}{c}{*All spectral bands except B10} \\
             \end{tabular}
@@ -83,13 +77,6 @@
             \caption{Description of labels.}
         \end{table}
     \end{minipage}
-\end{frame}
-
-\begin{frame}{Brightness Index (BI)}
-    \begin{equation}
-        BI = \sqrt{\frac{ (B4^2 + B3^2 + B2^2)}{3}}
-    \end{equation}
-    
 \end{frame}
 
 \section{Labeling}
@@ -158,7 +145,16 @@
     \end{minipage}
 \end{frame}
 
-\section{Results}
+
+\section{Previous results}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=8cm]{Figures/old_results.pdf}
+        \centering
+    \end{figure}
+\end{frame}
+
+
 % \begin{frame}{Date: 2021-05-13}
 % \centering
 %     \begin{tabular}{cc}
@@ -182,7 +178,7 @@
 
 \begin{frame}{Date: 2021-05-13}
     \begin{tabular}{ccc}
-        \multirow[c]{2}*[1cm]{\includegraphics[width=.3\textwidth]{Figures/v3/20210513/111-TCI_with_zoom_roi.pdf}} & \includegraphics[width=3cm]{Figures/v3/20210513/222-error_map_with_zoom_roi.pdf} &\includegraphics[width=2.7cm]{Figures/v3/20210513/binary_mask_umbral_04/zoom1.png}\\
+        \multirow[c]{2}*[1cm]{\includegraphics[width=.3\textwidth]{Figures/v3/20210513/111-TCI_with_zoom_roi.pdf}} & \includegraphics[width=3cm]{Figures/v3/20210513/222-error_map_with_zoom_roi.pdf} &\includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210513/binary_mask_umbral_04/zoom1.png}\\
         &\includegraphics[width=3cm]{Figures/v4/20210513/error_map_BI_zoom1.pdf}&\includegraphics[width=2.7cm,height=3cm]{Figures/v4/20210513/zoom1_IB.png}
         \end{tabular}
 \end{frame}
@@ -215,6 +211,7 @@
         \end{tabular}
 \end{frame}
 
+
 % \begin{frame}{Date: 2021-05-25}
 % \centering
 %     \begin{tabular}{cc}
@@ -235,7 +232,6 @@
 %     \includegraphics[width=3cm]{Figures/v3/20210525/umbral_05/zoom1.png}
 %     \end{tabular}
 % \end{frame}
-
 \begin{frame}{Date: 2021-05-25}
     \begin{tabular}{ccc}
         \multirow[c]{2}*[1cm]{\includegraphics[width=.3\textwidth]{Figures/v3/20210525/TCI/TCI_zoom1.pdf}} & \includegraphics[width=3cm]{Figures/v3/20210525/error/error_zoom1.pdf} &\includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210525/umbral_04/zoom1.png}\\
@@ -243,6 +239,12 @@
         \end{tabular}
 \end{frame}
 
+% \begin{frame}{Date: 2021-05-25}
+%     \begin{tabular}{ccc}
+%         \includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210525/TCI/zoom1.png} & \includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210525/error/zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210525/umbral_04/zoom1.png}\\
+%         \includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210525/TCI/zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v4/20210525/error_map_zoom1_BI.png}&\includegraphics[width=2.7cm,height=3cm]{Figures/v4/20210525/zoom1_IB.png}
+%         \end{tabular}
+% \end{frame}
 
 % \begin{frame}{Date: 2021-05-25}
 %     \centering
@@ -438,6 +440,162 @@
     \begin{tabular}{ccc}
         \multirow[c]{2}*[1cm]{\includegraphics[width=.3\textwidth]{Figures/v3/20210602/TCI/tci_zoom2.pdf}} & \includegraphics[width=3cm]{Figures/v3/20210602/error_map/error_zoom2.pdf} &\includegraphics[width=2.7cm,height=3cm]{Figures/v3/20210602/umbral_04/zoom2.png}\\
         &\includegraphics[width=3cm]{Figures/v4/20210602/error_zoom2.pdf}&\includegraphics[width=2.7cm,height=3cm]{Figures/v4/20210602/zoom2_BI.png}
+        \end{tabular}
+\end{frame}
+
+
+\begin{frame}{Updates}
+    \begin{itemize}
+        \item Computed the Brightness Index.
+        \item Computed the error with Euclidean distance.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Brightness Index (BI)}
+    This index results from the following equation:
+    \begin{equation}
+        BI = \sqrt{\frac{ (Red^2 / Green^2)}{2}}
+    \end{equation}
+    where Red is the Band 4 and Green is the Band 3. The index 
+    is sensitive to the brightness of soils. High soil brightness 
+    is linked with soil humidity and the presence of salts in the 
+    soil.
+\end{frame} 
+
+\begin{frame}{Brightness Index}
+    \begin{figure}
+        \includegraphics[width=11cm]{Figures/compute_BI.pdf}
+        \caption{Workflow of the compute of BI.}  
+        \centering
+    \end{figure}
+\end{frame} 
+
+\begin{frame}{Brightness Index}
+    \begin{figure}
+        \includegraphics[width=6.5cm]{Figures/BI_22MET.png}
+        \caption{Brightness Index (percentile 20) of Tile 22MET.}  
+        \centering
+    \end{figure}
+\end{frame} 
+
+\section{New results}
+\begin{frame}{Date: 2021-05-13}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/TCI_zoom1.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/error_map_zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/zoom1_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/TCI_zoom2.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/error_map_zoom2.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/zoom2_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-13}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/TCI_zoom3.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/error_map_zoom3.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/zoom3_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/TCI_zoom4.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/error_map_zoom4.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/zoom4_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-13}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/TCI_zoom5.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/error_map_zoom5.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/zoom5_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/TCI_zoom6.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/error_map_zoom6.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210513/zoom6_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-25}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/TCI_zoom1.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/error_map_zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/zoom1_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/TCI_zoom2.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/error_map_zoom2.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/zoom2_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-25}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/TCI_zoom3.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/error_map_zoom3.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/zoom3_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/TCI_zoom4.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/error_map_zoom4.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/zoom4_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-25}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/TCI_zoom5.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/error_map_zoom5.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/zoom5_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/TCI_zoom6.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/error_map_zoom6.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210525/zoom6_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-28}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/TCI_zoom1.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/error_map_zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/zoom1_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/TCI_zoom2.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/error_map_zoom2.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/zoom2_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-28}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/TCI_zoom3.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/error_map_zoom3.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/zoom3_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/TCI_zoom4.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/error_map_zoom4.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/zoom4_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-28}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/TCI_zoom5.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/error_map_zoom5.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/zoom5_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/TCI_zoom6.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/error_map_zoom6.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210528/zoom6_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-30}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/TCI_zoom1.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/error_map_zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/zoom1_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/TCI_zoom2.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/error_map_zoom2.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/zoom2_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-30}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/TCI_zoom3.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/error_map_zoom3.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/zoom3_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/TCI_zoom4.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/error_map_zoom4.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/zoom4_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-05-30}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/TCI_zoom5.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/error_map_zoom5.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/zoom5_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/TCI_zoom6.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/error_map_zoom6.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210530/zoom6_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-06-02}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/TCI_zoom1.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/error_map_zoom1.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/zoom1_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/TCI_zoom2.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/error_map_zoom2.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/zoom2_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-06-02}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/TCI_zoom3.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/error_map_zoom3.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/zoom3_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/TCI_zoom4.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/error_map_zoom4.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/zoom4_BI.png}\\
+        \end{tabular}
+\end{frame}
+
+\begin{frame}{Date: 2021-06-02}
+    \begin{tabular}{ccc}
+        \textbf{True color} & \textbf{Error map} & \textbf{Binary mask}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/TCI_zoom5.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/error_map_zoom5.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/zoom5_BI.png}\\
+        \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/TCI_zoom6.png}& \includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/error_map_zoom6.png} &\includegraphics[width=2.7cm,height=3cm]{Figures/v6/20210602/zoom6_BI.png}\\
         \end{tabular}
 \end{frame}
 

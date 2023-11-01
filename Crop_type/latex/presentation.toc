@@ -1,5 +1,6 @@
 \babel@toc {english}{}\relax 
-\beamer@sectionintoc {2}{Dataset}{4}{0}{1}
-\beamer@sectionintoc {3}{Labeling}{7}{0}{2}
-\beamer@sectionintoc {4}{Training}{12}{0}{3}
-\beamer@sectionintoc {5}{Results}{14}{0}{4}
+\beamer@sectionintoc {2}{Dataset}{3}{0}{1}
+\beamer@sectionintoc {3}{Labeling}{5}{0}{2}
+\beamer@sectionintoc {4}{Training}{10}{0}{3}
+\beamer@sectionintoc {5}{Previous results}{12}{0}{4}
+\beamer@sectionintoc {6}{New results}{28}{0}{5}
